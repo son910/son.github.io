@@ -1,0 +1,267 @@
+* {
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+}
+
+section > .container {
+  /* width: 1170px; */
+  margin: auto;
+  display: block;
+
+  padding: 30px 50px;
+}
+
+/* POSITION BANNER */
+.img-banner {
+  position: relative;
+  text-align: center;
+}
+#banner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffffd7;
+}
+/* NAV BAR FLEX */
+/* section > .container {
+  margin: auto;
+  display: block;
+  padding: 30px 10px;
+  line-height: 25px;
+} */
+
+#nav-bar .container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  text-transform: uppercase;
+  position: relative;
+  /* flex-direction: row; */
+  gap: 30px;
+  padding: 0;
+}
+/* #nav-bar a {
+  border: 1px solid;
+  border-bottom: none;
+  border-top: none;
+
+  padding: 20px;
+} */
+
+a {
+  color: black;
+  text-decoration: none;
+  border: 1px solid rgba(0, 0, 0, 0.116);
+  border-bottom: none;
+  border-top: none;
+
+  padding: 20px;
+}
+
+i {
+  color: rgb(16, 185, 185);
+}
+#avatar {
+  text-align: center;
+  border: 5px solid white;
+  border-radius: 50%;
+  margin-top: -100px;
+  position: absolute;
+}
+.start {
+  padding-right: 300px;
+  padding-top: 20px;
+}
+
+/* INFORMATION */
+.container-target {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  align-items: center;
+
+  /* margin: auto; */
+  column-gap: 120px;
+}
+.section-title {
+  padding-bottom: 20px;
+}
+. ul {
+  padding: 0;
+  margin-bottom: 25px;
+}
+/* THONG TIN NGHE NGHIEP */
+#job-info .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 80px;
+  width: 80%;
+}
+.grid-AT {
+  display: grid;
+  grid-template-columns: 75% 25%;
+}
+.grid-AT i {
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+.broder-1 {
+  padding: 20px;
+  border-style: ridge;
+  line-height: 25px;
+}
+.timeline span {
+  border: 5px solid rgb(7, 43, 250);
+  background-color: rgb(7, 43, 250);
+  border-radius: 7px;
+  color: #f7f7f7;
+}
+/* SO THICH BRODER 2 */
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto auto auto auto;
+  text-align: center;
+  gap: 10px;
+}
+.grid-2 i {
+  border: 2px solid rgb(44, 191, 211);
+  border-radius: 50%;
+  font-size: 20px;
+
+  padding: 25px;
+}
+/* NGON NGU */
+.score-blue {
+  background: blue;
+  height: 4px;
+  display: inline-block;
+  border-radius: 20px;
+  margin-right: 10px;
+  width: 45px;
+}
+.score-grey {
+  background: rgb(180, 178, 178);
+  height: 4px;
+  display: inline-block;
+  border-radius: 20px;
+  margin-right: 10px;
+  width: 45px;
+}
+/* CHUNG CHI GIAI THUONG */
+#certificate > div {
+  width: 80%;
+}
+.certificate-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: auto;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.grid-3 img {
+  width: 300px;
+  height: auto;
+  /* padding-bottom: 40px; */
+}
+.broder-2 {
+  position: relative;
+}
+.broder-2 ::after {
+  content: "";
+  background-color: #d6c08d;
+  position: absolute;
+  bottom: 0px;
+  top: 0px;
+  left: -19px;
+  width: 2px;
+  height: 150px;
+}
+.broder-2,
+.broder-3 {
+  border-bottom: 2px solid #d6c08d;
+  padding-bottom: 25px;
+}
+.broder-4 {
+  padding-top: 25px;
+  padding-bottom: 40px;
+}
+
+/* PROJECT */
+/* img {
+  width: 100px;
+} */
+.project-main {
+  /* display: grid;
+  grid-template-columns: auto auto auto; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 80%;
+  margin: auto;
+  gap: 20px;
+}
+#project .container {
+  width: 80%;
+}
+.project-timeline span:first-child {
+  background-color: #199cdb;
+  border: 2px solid #199cdb;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+.project-timeline {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.158);
+  border-left: none;
+  border-right: none;
+  padding: 10px;
+  gap: 10px;
+  padding-left: 10px;
+  border-bottom: none;
+}
+.project-a {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  border: 1px solid rgba(0, 0, 0, 0.158);
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  padding: 10px 5px;
+}
+.project-a:last-child {
+  border-bottom: none;
+}
+.project-1 {
+  border: 1px solid rgba(0, 0, 0, 0.158);
+}
+
+.project-img img {
+  height: 350px;
+}
+h5 {
+  padding: 25px 10px;
+}
+/* FOOTER */
+#footer ul {
+  list-style: none;
+  display: flex;
+
+  justify-content: center;
+
+  gap: 30px;
+  margin-bottom: 0;
+}
+#footer {
+  margin-top: 30px;
+}
